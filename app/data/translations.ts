@@ -33,6 +33,7 @@ export const translations = {
             verification: { title: "معاينة مجانية", text: "افحص طلبك قبل الدفع لوكيل الحافلة." }
         },
         editorial: {
+            badge: "الأداء الميداني",
             title: "لا تدع التقلبات\nالجوية توقفك.",
             text: "تم تصميم كل ملليمتر من هذا الطقم للظروف الحرجة. غطاء الرأس القابل للتعديل مع حافة والمعصم المرن يخلقان درعاً محكماً بينما تقوم تقنية النسيج بطرد الرطوبة لراحة جافة دائمة.",
             point1: "أمان متزايد: أشرطة عاكسة > 150 متر",
@@ -40,6 +41,7 @@ export const translations = {
             point3: "عملية: تجفيف فائق السرعة"
         },
         faq: {
+            title: "الأسئلة الشائعة",
             q1: { q: "هل هو حقاً مقاوم للماء 100%؟", a: "بالتأكيد. يشكل نسيجنا التقني حاجزاً منيعاً حتى تحت المطر الغزير المطول. تم تصميم الغرز والسحابات لعدم السماح بمرور أي شيء." },
             q2: { q: "كيف يعمل الدفع عند الاستلام؟", a: "تقوم بالطلب عبر الاستمارة. يقوم ناقلنا بالتوصيل إليك. لديك الحق في فتح الطرد للتحقق من السلع قبل الدفع." },
             q3: { q: "ما هي المقاسات المتوفرة؟", a: "يستخدم الطقم قصة 'Pro-Fit' واسعة ومريحة، مما يسمح بارتداء ملابس تحتها. الخصر مرن ليتناسب بشكل مريح مع جميع أشكال الجسم." }
@@ -104,6 +106,7 @@ export const translations = {
             verification: { title: "Vérification Gratuite", text: "Vérifiez votre colis avant de payer." }
         },
         editorial: {
+            badge: "PERFORMANCE TERRAIN",
             title: "Ne laissez plus\nl'imprévisible vous arrêter.",
             text: "Chaque millimètre de cet ensemble a été pensé pour les conditions critiques. La capuche ajustable avec visière et les poignets élastiques créent un bouclier hermétique alors que la technologie textile évacue l'humidité pour un confort sec permanent.",
             point1: "Sécurité accrue : Bandes réfléchissantes > 150m",
@@ -111,6 +114,7 @@ export const translations = {
             point3: "Praticité : Séchage ultra-rapide"
         },
         faq: {
+            title: "QUESTIONS FRÉQUENTES",
             q1: { q: "Est-ce vraiment 100% imperméable ?", a: "Absolument. Notre textile technique forme une barrière impénétrable même sous une pluie torrentielle prolongée. Les coutures et fermetures sont conçues pour ne rien laisser passer." },
             q2: { q: "Comment fonctionne le paiement à la livraison ?", a: "Vous passez commande en remplissant le formulaire. Notre transporteur vous livre. Vous avez le droit d'ouvrir le colis pour vérifier la marchandise avant de payer l'agent." },
             q3: { q: "Quelles sont les tailles disponibles ?", a: "L'ensemble utilise une coupe ergonomique 'Pro-Fit' ample, permettant de porter des vêtements par-dessous. La taille est élastique pour s'adapter confortablement à toutes les morphologies." }
