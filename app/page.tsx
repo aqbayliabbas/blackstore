@@ -102,6 +102,55 @@ export default function HomePage() {
                                         </div>
                                     ))}
                                 </div>
+
+                                {/* Industrial Manifest Gift Section */}
+                                <div className="mt-16 border-y-2 border-black py-10 relative overflow-hidden bg-white/50 group">
+                                    {/* Moving Ticker Background */}
+                                    <div className="relative z-10 px-4 flex flex-col items-center gap-10">
+                                        <div className="flex flex-col items-center text-center gap-2">
+                                            <h3 className={`font-black uppercase tracking-tighter leading-none ${isAr ? 'text-4xl lg:text-5xl' : 'text-3xl lg:text-4xl'}`}>
+                                                {t.gift.title}
+                                            </h3>
+                                        </div>
+
+                                        <div className="w-full max-w-lg grid grid-cols-2 gap-4 lg:gap-8">
+                                            <div className="relative group/item aspect-square bg-white border border-zinc-100 shadow-sm p-4 rotate-[-2deg] group-hover:rotate-0 transition-all duration-500">
+                                                <div className="relative w-full h-full">
+                                                    <Image src="/images/gloves.png" fill className="object-contain p-2 grayscale group-hover/item:grayscale-0 transition-all" alt="Gloves" />
+                                                </div>
+                                                <div className="absolute bottom-[-10px] right-2 bg-black text-white px-2 py-1 text-[10px] font-black rotate-3">
+                                                    1.0 PAIR
+                                                </div>
+                                            </div>
+
+                                            <div className="relative group/item aspect-square bg-white border border-zinc-100 shadow-sm p-4 rotate-[2deg] group-hover:rotate-0 transition-all duration-500">
+                                                <div className="relative w-full h-full">
+                                                    <Image src="/images/balaclava.png" fill className="object-contain p-2 grayscale group-hover/item:grayscale-0 transition-all" alt="Balaclava" />
+                                                </div>
+                                                <div className="absolute bottom-[-10px] right-2 bg-black text-white px-2 py-1 text-[10px] font-black -rotate-3">
+                                                    1.0 UNIT
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="flex flex-col items-center gap-4">
+                                            <div className="flex items-center gap-4 py-2 px-6 border border-black rounded-full text-black font-black uppercase tracking-widest text-xs relative overflow-hidden group/btn">
+                                                <div className="absolute inset-0 bg-black translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300"></div>
+                                                <span className="relative z-10 group-hover/btn:text-white transition-colors">{t.gift.items}</span>
+                                            </div>
+                                            <div className="flex gap-1">
+                                                {[1, 2, 3, 4, 5].map((i) => (
+                                                    <div key={i} className="w-3 h-[2px] bg-red-600"></div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Status Badge */}
+                                    <div className="absolute top-1/2 -right-12 -translate-y-1/2 rotate-90 hidden lg:block">
+                                        <span className="text-8xl font-black text-zinc-100 uppercase tracking-tighter opacity-10 select-none">OFFERT</span>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="order-form" className="relative scroll-mt-32">
@@ -189,9 +238,6 @@ export default function HomePage() {
                         <div className="space-y-24 lg:space-y-32">
                             {[t.faq.q1, t.faq.q2, t.faq.q3].map((faq, i) => (
                                 <div key={i} className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
-                                    <div className={`lg:col-span-12 text-[10px] font-black uppercase tracking-[0.5em] text-zinc-200`}>
-                                        PRO_LOG_0{i + 1}
-                                    </div>
                                     <div className="lg:col-span-12 space-y-4 lg:space-y-8">
                                         <h4 className={`font-black tracking-tighter uppercase ${isAr ? 'text-3xl lg:text-4xl' : 'text-2xl lg:text-3xl'}`}>{faq.q}</h4>
                                         <p className={`text-zinc-600 leading-relaxed font-medium max-w-2xl ${isAr ? 'text-lg lg:text-2xl' : 'text-base lg:text-xl'}`}>{faq.a}</p>

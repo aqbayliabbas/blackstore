@@ -128,7 +128,9 @@ export default function OrderForm() {
                             {t.form.wilaya}
                         </label>
                         <select
-                            className="w-full rounded-xl border-zinc-200 bg-white px-5 py-4 text-base focus:border-black transition-all outline-none border focus:ring-0 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20d%3D%22m7%2010%205%205%205-5%22%2F%3E%3C%2Fsvg%3E')] bg-[length:20px] bg-no-repeat bg-[right_1.25rem_center] rtl:bg-[left_1.25rem_center]"
+                            className={`w-full rounded-xl border-zinc-200 bg-white px-5 py-4 text-base focus:border-black transition-all outline-none border focus:ring-0 appearance-none bg-no-repeat bg-[length:20px] ${language === 'ar' ? 'bg-[left_1.25rem_center]' : 'bg-[right_1.25rem_center]'
+                                }`}
+                            style={{ backgroundImage: `url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20d%3D%22m7%2010%205%205%205-5%22%2F%3E%3C%2Fsvg%3E")` }}
                             value={formData.wilaya}
                             onChange={(e) => setFormData({ ...formData, wilaya: e.target.value })}
                             required
