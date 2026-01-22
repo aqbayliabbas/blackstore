@@ -5,7 +5,7 @@ import wilayas from "../data/wilayas.json";
 import { supabase } from "@/app/lib/supabase";
 import { useLanguage } from "../context/LanguageContext";
 
-const PRODUCT_PRICE = 3000;
+const PRODUCT_PRICE = 3200;
 
 export default function OrderForm() {
     const { t, language } = useLanguage();

@@ -142,7 +142,7 @@ export const translations = {
         },
         gift: {
             title: "CADEAU OFFERT AVEC CHAQUE COMMANDE",
-            items: "Une paire de gants + une cagoule offerte"
+            items: "Une paire de gants"
         }
     }
 };

@@ -113,22 +113,13 @@ export default function HomePage() {
                                             </h3>
                                         </div>
 
-                                        <div className="w-full max-w-lg grid grid-cols-2 gap-4 lg:gap-8">
-                                            <div className="relative group/item aspect-square bg-white border border-zinc-100 shadow-sm p-4 rotate-[-2deg] group-hover:rotate-0 transition-all duration-500">
+                                        <div className="flex justify-center w-full">
+                                            <div className="relative group/item aspect-square w-48 bg-white border border-zinc-100 shadow-sm p-4 rotate-[-2deg] group-hover:rotate-0 transition-all duration-500">
                                                 <div className="relative w-full h-full">
                                                     <Image src="/images/gloves.png" fill className="object-contain p-2 grayscale group-hover/item:grayscale-0 transition-all" alt="Gloves" />
                                                 </div>
                                                 <div className="absolute bottom-[-10px] right-2 bg-black text-white px-2 py-1 text-[10px] font-black rotate-3">
                                                     1.0 PAIR
-                                                </div>
-                                            </div>
-
-                                            <div className="relative group/item aspect-square bg-white border border-zinc-100 shadow-sm p-4 rotate-[2deg] group-hover:rotate-0 transition-all duration-500">
-                                                <div className="relative w-full h-full">
-                                                    <Image src="/images/balaclava.png" fill className="object-contain p-2 grayscale group-hover/item:grayscale-0 transition-all" alt="Balaclava" />
-                                                </div>
-                                                <div className="absolute bottom-[-10px] right-2 bg-black text-white px-2 py-1 text-[10px] font-black -rotate-3">
-                                                    1.0 UNIT
                                                 </div>
                                             </div>
                                         </div>
